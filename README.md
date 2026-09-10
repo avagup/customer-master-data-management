@@ -28,6 +28,8 @@ This project demonstrates a practical workflow for identifying these issues and 
 
 ## Dataset
 
+Synthetic customer data created for portfolio demonstration purposes.
+
 | Attribute | Details |
 |---|---|
 | Records analyzed | 10,100 |
