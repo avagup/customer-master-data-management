@@ -1,0 +1,12 @@
+Issue,Records,Treatment,Business_Rationale
+Exact duplicate rows,80,Removed,Redundant records
+Duplicate Customer_ID,0,No action,Customer_ID is unique
+Missing Phone,255,Retained,No reliable value available
+Missing Email,118,Retained,No reliable value available
+Invalid Email,104,Flagged,Do not fabricate/correct without source
+Future DOB,25,Set to missing,Invalid future date
+Missing DOB,154,Retained,Missing allowed; no reliable replacement
+Missing State,102,Retained,Cannot reliably infer state
+Missing First Name,80,Retained,Cannot reliably infer from email
+Future Signup Date,21,Set to missing,Invalid future date
+DOB >= Signup Date,0,No action,No chronological violations
